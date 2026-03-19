@@ -17,7 +17,8 @@ valid_df = df[df["SMILES"].apply(lambda x: Chem.MolFromSmiles(x) is not None)]
 1. PAINS (Pan-Assay Interference Compounds)
 2. BRENK (Brenk Filters)
 3. ZINC (ZINC Leads-Now Filter)
-После фильтрации на токсичность отсалось 678 молекул
+4. 
+После фильтрации на токсичность осталось 678 молекул
 
 |index|SMILES|MOL|TOXITY|TOXITY\_SOURCE|
 |---|---|---|---|---|
