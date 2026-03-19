@@ -5,7 +5,7 @@
 
 
 ## 1. Генерация и валидация молекул
-Молекулы были сгенерированны при помощи модели [ibm-research/GP-MoLFormer-Uniq](https://huggingface.co/ibm-research/GP-MoLFormer-Uniq) - безусловная de novo генерация
+Молекулы были сгенерированны при помощи модели [ibm-research/GP-MoLFormer-Uniq](https://huggingface.co/ibm-research/GP-MoLFormer-Uniq) - безусловная de novo генерация. Скрипт `molformer\scripts\unconditional_generation.py`
 
 Сгенерировано 1000 молекул, валидация проводилась путем возможности ковертации в `MOL`, 2 молекулы не прошли валидацию
 ```python
